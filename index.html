@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <title>Anglų kalbos testas | Auris B.</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAweome CDN Link for Icons-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <!-- start Quiz button -->
+    <div class="start_btn"><button>Pradėti testą</button></div>
+
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info-title"><span>Testo taisyklės</span></div>
+        <div class="info-list">
+            <div class="info">1. Kiekvienam klausimui yra skirta <span>20 sekundžių</span>.</div>
+            <div class="info">2. Paspaudus atsakymą jo nebebus galima atspausti</div>
+            <div class="info">3. Pasibaigus laikui atsakymas nebus užskaitytas.</div>
+            <div class="info">4. Testas turi būti išspręstas ir jo negalima nutraukti.</div>
+            <div class="info">5. Testą sudaro <span>20 anglų kalbos</span> klausimų.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Baigti testą</button>
+            <button class="restart">Tęsti</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Anglų kalbos testas | Auris B.</div>
+            <div class="timer">
+                <div class="time_left_txt">Liko laiko:</div>
+                <div class="timer_sec">20</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Here I've inserted question from JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- Here I've inserted options from JavaScript -->
+            </div>
+        </section>
+
+        <!-- footer of Quiz Box -->
+        <footer>
+            <div class="total_que">
+                <!-- Here I've inserted Question Count Number from JavaScript -->
+            </div>
+            <button class="next_btn">Sekantis</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Testas baigtas</div>
+        <div class="score_text">
+            <!-- Here I've inserted Score Result from JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Paleisti iš naujo</button>
+            <button class="quit">Baigti testą</button>
+        </div>
+    </div>
+
+    <!-- Inside this JavaScript file I've inserted Questions and Options only -->
+    <script src="js/questions.js"></script>
+
+    <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
